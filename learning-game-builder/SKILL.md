@@ -41,6 +41,19 @@ Use progression to unlock complexity, not merely larger scores. Provide producti
 
 For command-line games, also read [references/terminal-games.md](references/terminal-games.md).
 
+## Make progression, hints, and presentation legible
+
+For games with levels or rounds:
+
+- Show the learner the total number of core levels, their current position, and the competency taught by each level.
+- Provide an accessible map or curriculum overview from the beginning. Locked content may hide challenge details, but must not hide the overall learning destination.
+- Distinguish required progression from optional bonus rounds.
+- Include bonus rounds when the subject supports meaningful advanced transfer. Bonus rounds should have clearly labeled high difficulty, combine previously learned competencies, permit multiple valid strategies where appropriate, and not block completion of the core path.
+- Use color to clarify structure, state, feedback, and syntax when the interface supports it. Never make color the only carrier of meaning, detect or respect non-color environments, and provide a way to disable color.
+- For code or query input, make hints syntax-aware whenever practical. Use the learner's attempt, parser or runtime error, objective, and expected concepts to identify the relevant clause, token, or structural gap.
+- Syntax hints should explain the usable form of the construct and provide a partial pattern with placeholders, such as `SELECT <columns> FROM <table> WHERE <condition>;`. Do not immediately reveal the completed answer.
+- Escalate hints from locating the problem, to naming the construct, to showing a reusable syntax pattern, to an analogous example, and finally to an explained reveal with reduced mastery credit.
+
 ## Plan content and data separately
 
 Represent curriculum content in inspectable data where practical. Separate:
@@ -88,4 +101,3 @@ Report:
 - save-data and learner-input safety boundaries
 - documentation location and source status
 - remaining risks or next recommended slice
-
