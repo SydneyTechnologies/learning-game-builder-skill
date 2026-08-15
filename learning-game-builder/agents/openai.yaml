@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Game Builder"
+  short_description: "Build rigorous, engaging learning games"
+  default_prompt: "Use $learning-game-builder to design and build a thorough terminal-based learning game."
