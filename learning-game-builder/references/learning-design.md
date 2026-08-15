@@ -27,6 +27,8 @@ Move through a useful sequence:
 
 Vary surface details while preserving the concept. Include diagnosis, comparison, prediction, construction, and explanation—not only multiple-choice recall.
 
+Before asking learners to solve a task against an unfamiliar environment, provide a discovery route. Make the available entities, attributes, tools, and relationships inspectable in the representation learners will use for practice; then allow a no-stakes trial before interpreting performance as mastery.
+
 ## Assessment and retention
 
 Use criterion-based mastery. Track evidence by competency rather than relying solely on an aggregate score. Separate practice attempts from mastery checks. Require multiple successes or a transfer task for important competencies. Label the evidence strength transparently, for example independent, hint-supported, or revealed.

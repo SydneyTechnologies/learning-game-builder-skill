@@ -13,6 +13,8 @@ Make the core verb resemble the real capability: query a database to learn SQL, 
 
 Keep the loop legible: goal, attempt, observable result, tailored feedback, reflection, choice. Give the learner agency through solution strategy, challenge order, risk, resource use, or narrative decisions.
 
+Separate discovery from assessment when a learner must understand an environment before acting in it. An ungraded workspace can expose the available objects, data, tools, or rules; let the learner inspect examples and try safe actions there before returning to the current challenge. Exploration should clarify the real task, not become a second scoring loop.
+
 ## Progression and motivation
 
 Use levels, ranks, areas, or story chapters to communicate growing capability. Unlock new mechanics when prerequisite evidence exists. Provide a map and visible competency progress.
@@ -34,6 +36,8 @@ Anticipate misconceptions and write targeted responses. Provide a general fallba
 ## Content systems
 
 Give challenges stable IDs and version their schema. Store prompt, competency tags, prerequisites, fixtures, accepted outcome, hint ladder, explanation, source links, difficulty, and accessibility notes. For a terminal mission, pair the prompt with a short teaching card: why it matters, a reusable pattern, an analogous example, and a common mistake.
+
+If the game includes a workspace, keep its commands and inventory in inspectable configuration alongside the challenge data. Reuse the realistic fixture where appropriate, but explicitly prevent exploratory actions from changing completion, mastery evidence, or irreversible world state.
 
 Support deterministic seeds for reproducible debugging. Keep authored content reviewable without running the entire game. Add content validation for duplicate IDs, broken prerequisites, missing solutions, unreachable content, and broken references.
 
