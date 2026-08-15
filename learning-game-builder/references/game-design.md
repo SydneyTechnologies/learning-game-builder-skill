@@ -33,7 +33,8 @@ Anticipate misconceptions and write targeted responses. Provide a general fallba
 
 ## Content systems
 
-Give challenges stable IDs and version their schema. Store prompt, competency tags, prerequisites, fixtures, accepted outcome, hint ladder, explanation, source links, difficulty, and accessibility notes.
+Give challenges stable IDs and version their schema. Store prompt, competency tags, prerequisites, fixtures, accepted outcome, hint ladder, explanation, source links, difficulty, and accessibility notes. For a terminal mission, pair the prompt with a short teaching card: why it matters, a reusable pattern, an analogous example, and a common mistake.
 
 Support deterministic seeds for reproducible debugging. Keep authored content reviewable without running the entire game. Add content validation for duplicate IDs, broken prerequisites, missing solutions, unreachable content, and broken references.
 
+Treat a canonical solution as executable test data, not as an answer string to compare against. Its result contract should specify only the properties the prompt requires: output labels, values, grouping, and order. Preserve valid alternative strategies when they meet that contract.

@@ -11,7 +11,7 @@
 
 Write outcomes as observable performances: “debug a join that duplicates rows,” not “understand joins.” Decompose each outcome until it can be practiced and assessed, but retain synthesis challenges that combine several competencies.
 
-Record for each competency: prerequisites, common misconceptions, worked-example need, practice variants, mastery evidence, and documentation target. Use a graph when learning order branches; do not force a false linear sequence.
+Record for each competency: prerequisites, common misconceptions, worked-example need, practice variants, mastery evidence, documentation target, and a later retrieval or integration point. Use a graph when learning order branches; do not force a false linear sequence.
 
 ## Challenge ladder
 
@@ -29,7 +29,7 @@ Vary surface details while preserving the concept. Include diagnosis, comparison
 
 ## Assessment and retention
 
-Use criterion-based mastery. Track evidence by competency rather than relying solely on an aggregate score. Separate practice attempts from mastery checks. Require multiple successes or a transfer task for important competencies.
+Use criterion-based mastery. Track evidence by competency rather than relying solely on an aggregate score. Separate practice attempts from mastery checks. Require multiple successes or a transfer task for important competencies. Label the evidence strength transparently, for example independent, hint-supported, or revealed.
 
 Use spaced retrieval and interleaving. Reintroduce prior skills within later challenges. Let learners inspect why the system considers a competency mastered and offer reassessment.
 
@@ -39,5 +39,4 @@ Treat hint use, retries, and answer reveals as evidence, not moral failure. Adju
 
 Adapt challenge selection from demonstrated evidence. If a learner struggles, offer a smaller prerequisite task or a different representation. If performance is strong, skip redundant drills while retaining transfer and retrieval checks.
 
-Always provide manual navigation so an adaptive system does not trap the learner or hide content.
-
+Always provide manual navigation so an adaptive system does not trap the learner or hide content. Expose the full curriculum destination, core versus optional scope, and a visible resume point even when later challenge details are locked.

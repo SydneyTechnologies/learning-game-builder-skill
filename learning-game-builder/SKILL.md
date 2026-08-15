@@ -54,6 +54,19 @@ For games with levels or rounds:
 - Syntax hints should explain the usable form of the construct and provide a partial pattern with placeholders, such as `SELECT <columns> FROM <table> WHERE <condition>;`. Do not immediately reveal the completed answer.
 - Escalate hints from locating the problem, to naming the construct, to showing a reusable syntax pattern, to an analogous example, and finally to an explained reveal with reduced mastery credit.
 
+## Audit curriculum depth and teaching visibility
+
+Do not equate a mission count with curricular depth. A short trail can be a useful vertical slice, but it is not evidence that a learner can perform the advertised end capability across its full scope.
+
+- State the course boundary precisely: for example, “read-only SQL querying” rather than “learn SQL” when data changes, schema design, transactions, performance, or other major capabilities are out of scope.
+- Organize a nontrivial course into named units that introduce, practice, retrieve, and integrate skills; expose those units and the total core/bonus count in the map from the beginning.
+- Introduce a concept before requiring it. For terminal missions, display a concise teaching card containing the goal, why the construct matters, a reusable syntax pattern, an analogous worked example, and a common misconception.
+- Revisit important skills in changed contexts later in the trail. Add retrieval and integration missions before and after introducing new syntax so progress represents durable performance instead of one-pass completion.
+- Validate every explicitly requested result property. If a challenge asks for a column alias, grouping, a filtered relationship, or row order, its assessment must check that property rather than merely accepting a similar-looking set of values.
+- Keep the course playable in sessions: provide a visible resume point, unit-scale progress, optional high-difficulty transfer missions, and a truthful indication of what remains outside the course.
+
+For an expanded curriculum, add a coverage matrix that maps each competency to initial instruction, guided practice, independent or retrieval practice, transfer, feedback, assessment, and documentation. Treat missing later retrieval for essential skills as a curriculum gap.
+
 ## Plan content and data separately
 
 Represent curriculum content in inspectable data where practical. Separate:
@@ -69,6 +82,14 @@ Select the smallest dependable stack that supports the brief. Prefer local-first
 
 Produce an implementation plan with a playable vertical slice early: one complete competency including instruction, play, feedback, assessment, persistence, and documentation.
 
+## Make authored challenges executable and inspectable
+
+Give each challenge a compact, reviewable contract: stable ID, competency, objective, prerequisite or sequence position, lesson card, reusable pattern, analogous example, misconception, hint ladder, documentation target, canonical execution, expected outcome, and completion explanation. Keep required and optional challenge boundaries as explicit content configuration rather than scattered UI assumptions.
+
+Use a canonical solution to execute and verify the fixture, not as the only accepted learner input. Define result contracts deliberately: check headers, aliases, values, grouping, and ordering only when the objective requires them; normalize rows when order is irrelevant. Include at least one test for a legitimate alternative strategy whenever the domain permits it.
+
+Provide non-interactive commands or equivalent automation for content validation and a full smoke path. Validate duplicate IDs, required fields, prerequisite reachability, core/bonus boundaries, documentation targets, canonical executions, and saved-state compatibility. Test the validator itself against representative broken data where practical.
+
 ## Implement evidence-based feedback
 
 Validate outcomes, not one exact input, when multiple solutions are legitimate. Distinguish syntax or input errors, conceptual mistakes, incomplete solutions, and valid alternative strategies. Never reveal the complete answer before the learner has a meaningful attempt unless explicitly requested.
@@ -81,7 +102,7 @@ Use feedback in this order when appropriate:
 4. Offer a deeper explanation or relevant reference.
 5. Allow retry, alternate practice, or an explicit reveal with reduced mastery credit.
 
-For executable learner input, isolate execution, impose resource limits, make sample data recoverable, and never interpolate untrusted input into host shell commands.
+For executable learner input, isolate execution, impose resource limits and result-size bounds, make sample data recoverable, and never interpolate untrusted input into host shell commands. Prefer a disposable fixture, explicit read-only policy, and engine-level authorization over string filtering alone.
 
 ## Create a connected knowledge base
 
